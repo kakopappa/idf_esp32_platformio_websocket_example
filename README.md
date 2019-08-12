@@ -1,9 +1,10 @@
-# idf_esp32_platformio_websocket_example
+# esp32 idf platformio websocket example
 
-I could not find library to connect to my websocket server using PlatformIO IDF library. So I copied the esp_websocket_client.c and esp_websocket_client.h from IDF and made one.
+I could not find library to connect to my websocket server using PlatformIO when I used IDF framework. So I copied the esp_websocket_client.c and esp_websocket_client.h from IDF components and made one. 
+
+here is the nodejs server code
 
 ```
-here is the nodejs server code
 
 const WebSocket = require('ws');
 
