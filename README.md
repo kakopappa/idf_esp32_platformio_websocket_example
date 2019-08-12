@@ -2,7 +2,7 @@
 
 I could not find library to connect to my websocket server using PlatformIO IDF library. So I copied the esp_websocket_client.c and esp_websocket_client.h from IDF and made one.
 
-`
+```
 here is the nodejs server code
 
 const WebSocket = require('ws');
@@ -24,4 +24,4 @@ wss.on('connection', function connection(ws) {
 wss.on('connection', (ws) => {
   ws.on('error', console.log);
 });
-`
+```
